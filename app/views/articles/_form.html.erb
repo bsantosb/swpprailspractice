@@ -1,0 +1,9 @@
+<%= form_for @article do |f| %>
+<% if @article.errors.any? %>
+<%# Lines in this point are same with
+new.html.erb and edit.html.erb.
+So copy & paste! %>
+<p>
+<%= f.submit %>
+</p>
+<% end %>

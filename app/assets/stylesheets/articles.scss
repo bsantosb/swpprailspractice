@@ -1,3 +1,11 @@
 // Place all the styles related to the articles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+h1 {
+/* Apply the style to <h1> ... </h1>
+Check your View files(*.html.erb) for articles controller!*/
+color: orange;
+text-align: left;
+}
